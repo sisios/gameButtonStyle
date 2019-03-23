@@ -12,6 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface AIEnglishLearningJapaneseStudyWordCollectionViewCell : UICollectionViewCell
 
+@property (weak, nonatomic) IBOutlet UILabel *AIEnglishLearningJapaneseStudyWordTitleLabel;
+@property (weak, nonatomic) IBOutlet UIView *AIEnglishLearningJapaneseStudyWordTitleView;
+
 @end
 
 NS_ASSUME_NONNULL_END
